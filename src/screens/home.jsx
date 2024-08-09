@@ -7,7 +7,6 @@ export default function Home(){
    
     return(
         <>
-        <h1>Hey! You are on Home Screen</h1>
 
         </>
     )
