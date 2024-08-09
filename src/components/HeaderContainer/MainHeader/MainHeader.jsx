@@ -26,16 +26,10 @@ export default function Main_Header(){
 
     function handleLoginClick(){
         navigate("/login")
-        if (currentUser){
-            setUserSignedIn(true)
-        }
         return
     }
     function handleSignupClick(){
         navigate("/signup")
-        if (currentUser){
-            setUserSignedIn(true)
-        }
         return
     }
     function handleUserClick(){
@@ -44,10 +38,6 @@ export default function Main_Header(){
     }
     async function handleLogout(){
         await logout();
-        if (!currentUser){
-            setUserSignedIn(false);
-        }
-        
         navigate('/');
     }
         
@@ -98,7 +88,7 @@ export default function Main_Header(){
 
             </CenterSection>
             <RightSection>
-            {userSignedIn ? (
+            {currentUser ? (
                 <div style={{display:'flex'}}>
                     <CustomButton
                      onClick={handleUserClick}
