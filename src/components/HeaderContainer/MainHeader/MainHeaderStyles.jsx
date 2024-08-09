@@ -26,21 +26,21 @@ width: 1000px;
   margin-left:20px;
 `;
 
-export const MenuOption = styled.button`
-  display: flex;
-  //width: 900px;
-  margin-left:20px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-size:20px;
-  font-family: monospace;
-  font-weight: bold;
+// export const MenuOption = styled.button`
+//   display: flex;
+//   //width: 900px;
+//   margin-left:20px;
+//   background-color: transparent;
+//   border: none;
+//   cursor: pointer;
+//   font-size:20px;
+//   font-family: monospace;
+//   font-weight: bold;
 
-  &:hover {
-    color: tomato; 
-  }
-`;
+//   &:hover {
+//     color: tomato; 
+//   }
+// `;
 
 export const RightSection = styled.section`
   display: flex;
