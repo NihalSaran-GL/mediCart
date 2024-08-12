@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Define a styled button that accepts props
 const StyledButton = styled.button`
   background-color: ${(props) => props.bgColor || 'transparent'};
   color: ${(props) => props.color || 'black'};
